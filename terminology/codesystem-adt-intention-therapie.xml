@@ -5,7 +5,7 @@
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2018-10-31"/>
-	<publisher value="Universität Köln"/>
+	<publisher value="Uniklinik Köln"/>
 	<description value="Intention von systemischen und Strahlentherapien"/>
 	<caseSensitive value="true"/>
 	<valueSet value="http://uk-koeln.de/fhir/ValueSet/cancer-base/adt/intention-therapie"/>
