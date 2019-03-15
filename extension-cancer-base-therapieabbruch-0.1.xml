@@ -6,7 +6,7 @@
   <title value="Therapieabbruch" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <description value="Informationen zum Therapieabbruch" />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />

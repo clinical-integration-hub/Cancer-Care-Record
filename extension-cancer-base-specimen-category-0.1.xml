@@ -6,7 +6,7 @@
   <title value="Kategorie des Biomaterials" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

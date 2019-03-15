@@ -6,7 +6,7 @@
   <title value="Studienempfehlung" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <description value="Referenz zur empfohlenen Studie" />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />

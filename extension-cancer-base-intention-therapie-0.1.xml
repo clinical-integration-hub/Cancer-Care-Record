@@ -6,7 +6,7 @@
   <title value="Intention von systemischen und Strahlentherapien" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <description value="Intention von systemischen und Strahlentherapien" />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />

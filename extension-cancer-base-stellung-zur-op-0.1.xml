@@ -6,7 +6,7 @@
   <title value="Stellung der Therapie zur Operation" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <description value="Stellung der Therapie zur Operation" />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />

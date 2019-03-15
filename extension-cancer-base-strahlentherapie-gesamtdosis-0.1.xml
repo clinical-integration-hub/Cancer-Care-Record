@@ -6,7 +6,7 @@
   <title value="Gesamtdosis der Strahlentherapie" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <description value="Gesamtdosis der Strahlentherapie" />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />

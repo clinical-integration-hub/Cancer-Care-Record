@@ -6,7 +6,7 @@
   <title value="Therapielinie" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <description value="Die Nummer der Therapielinie (1., 2., ... n = 1st, 2nd, ... nth line)" />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />

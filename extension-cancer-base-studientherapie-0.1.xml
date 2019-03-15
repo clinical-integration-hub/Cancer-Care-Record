@@ -6,7 +6,7 @@
   <title value="Studientherapie" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+	<publisher value="Uniklinik Köln"/>
   <description value="Studientherapie (ja/nein oder/und Referenz zur Studie bzw. Studienteilnehme)" />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />
