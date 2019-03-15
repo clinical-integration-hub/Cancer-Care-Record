@@ -5,7 +5,7 @@
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2018-10-31"/>
-	<publisher value="Universität Köln"/>
+	<publisher value="Uniklinik Köln"/>
 	<description value="Codierung für Medikamente. Dieses Minimal-ValueSet beschreibt lediglich das Nicht-Vorhandensein dieser Angabe und sollte daher niemals required gebunden werden."/>
 	<compose>
 		<include>
