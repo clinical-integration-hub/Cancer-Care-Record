@@ -6,7 +6,7 @@
   <title value="Sonstige Therapie (nicht-medikamentös)" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+  <publisher value="Uniklinik Köln" />
   <description value="Sonstige Therapie (nicht-medikamentös)" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />

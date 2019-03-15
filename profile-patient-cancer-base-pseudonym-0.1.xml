@@ -5,6 +5,8 @@
   <title value="Pseudonymisierter Patient" />
   <status value="draft" />
   <description value="Pseudonymisierter Patient" />
+  <experimental value="true" />
+  <publisher value="Universität Köln" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />
   <abstract value="false" />

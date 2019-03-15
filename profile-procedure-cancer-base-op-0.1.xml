@@ -6,7 +6,7 @@
   <title value="OP" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+  <publisher value="Uniklinik Köln" />
   <description value="OP (Operation) bzw. sonstiger Eingriff" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />

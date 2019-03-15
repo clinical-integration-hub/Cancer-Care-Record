@@ -6,7 +6,7 @@
   <title value="Tumorerkrankung (Episode)" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+  <publisher value="Uniklinik Köln" />
   <purpose value="Diese Ressource stellt eine Klammer da, auf die alle diagnostischen, therapeutischen und Verlaufsdaten referenziert werden können" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />

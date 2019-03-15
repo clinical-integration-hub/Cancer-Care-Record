@@ -6,7 +6,7 @@
   <title value="Patient" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+  <publisher value="Uniklinik Köln" />
   <description value="Patient mit identifizierenden Daten" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />

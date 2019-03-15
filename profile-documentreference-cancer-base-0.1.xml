@@ -6,7 +6,7 @@
   <title value="Arztbriefe und andere Dokumente" />
   <status value="draft" />
   <experimental value="true" />
-  <publisher value="Universität Köln" />
+  <publisher value="Uniklinik Köln" />
   <description value="Referenz auf Arztbriefe und andere Dokumente" />
   <fhirVersion value="3.0.1" />
   <kind value="resource" />
