@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Consent/cancer-base/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Consent/cancer-base" />
   <version value="0.1" />
   <name value="consent-cancer-base-0.1" />
   <title value="Einverständniserklärung des Patienten" />
@@ -561,7 +561,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2847,7 +2847,7 @@
       <path value="Consent.patient" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
   </differential>

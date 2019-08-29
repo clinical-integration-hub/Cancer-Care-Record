@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/cancer-base/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/cancer-base" />
   <version value="0.1" />
   <name value="specimen-cancer-base-0.1" />
   <title value="Biomaterial" />
@@ -336,7 +336,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/specimen-category/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/specimen-category" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -745,7 +745,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -998,7 +998,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2302,7 +2302,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/specimen-category/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/specimen-category" />
       </type>
     </element>
     <element id="Specimen.type">
@@ -2319,14 +2319,14 @@
       <path value="Specimen.parent" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/cancer-base" />
       </type>
     </element>
     <element id="Specimen.collection.collector">
       <path value="Specimen.collection.collector" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
     </element>
     <element id="Specimen.collection.collector.reference">

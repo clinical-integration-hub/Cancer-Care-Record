@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studientherapie/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studientherapie" />
   <version value="0.1" />
   <name value="extension-cancer-base-studientherapie-0.1" />
   <title value="Studientherapie" />
@@ -714,7 +714,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studientherapie/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studientherapie" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -937,7 +937,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studientherapie/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studientherapie" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

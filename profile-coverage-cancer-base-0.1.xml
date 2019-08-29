@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Coverage/cancer-base/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Coverage/cancer-base" />
   <version value="0.1" />
   <name value="coverage-cancer-base-0.1" />
   <title value="Versicherungsverhältnis" />
@@ -626,7 +626,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -728,7 +728,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1094,11 +1094,11 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
@@ -2522,14 +2522,14 @@
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
     <element id="Coverage.beneficiary">
       <path value="Coverage.beneficiary" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
     <element id="Coverage.beneficiary.reference">
@@ -2540,11 +2540,11 @@
       <path value="Coverage.payor" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <type>
         <code value="Reference" />

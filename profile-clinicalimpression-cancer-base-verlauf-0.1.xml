@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/ClinicalImpression/cancer-base/verlauf/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/ClinicalImpression/cancer-base/verlauf" />
   <version value="0.1" />
   <name value="clinicalimpression-cancer-base-verlauf-0.1" />
   <title value="Verlaufsdokumentation, Nachsorge" />
@@ -1032,7 +1032,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1082,7 +1082,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1197,7 +1197,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1439,7 +1439,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ClinicalImpression/cancer-base/verlauf/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ClinicalImpression/cancer-base/verlauf" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1672,7 +1672,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2192,27 +2192,27 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-gesamtbeurteilung/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-gesamtbeurteilung" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lokal/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lokal" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lymphknoten/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lymphknoten" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-fernmetastasen/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-fernmetastasen" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/vitalstatus/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/vitalstatus" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2689,14 +2689,14 @@
       <path value="ClinicalImpression.subject" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
     <element id="ClinicalImpression.context">
       <path value="ClinicalImpression.context" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
     </element>
     <element id="ClinicalImpression.effective[x]:effectiveDateTime">
@@ -2710,7 +2710,7 @@
       <path value="ClinicalImpression.assessor" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
     </element>
     <element id="ClinicalImpression.assessor.reference">
@@ -2721,7 +2721,7 @@
       <path value="ClinicalImpression.previous" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ClinicalImpression/cancer-base/verlauf/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ClinicalImpression/cancer-base/verlauf" />
       </type>
     </element>
     <element id="ClinicalImpression.previous.reference">
@@ -2732,7 +2732,7 @@
       <path value="ClinicalImpression.problem" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base" />
       </type>
     </element>
     <element id="ClinicalImpression.investigation.code">
@@ -2750,27 +2750,27 @@
       <sliceName value="itemReference" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-gesamtbeurteilung/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-gesamtbeurteilung" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lokal/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lokal" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lymphknoten/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-lymphknoten" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-fernmetastasen/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tumorstatus-fernmetastasen" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/vitalstatus/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/vitalstatus" />
       </type>
     </element>
     <element id="ClinicalImpression.finding.item[x]:itemReference.reference">

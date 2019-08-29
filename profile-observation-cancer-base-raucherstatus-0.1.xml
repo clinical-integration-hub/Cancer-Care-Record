@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/raucherstatus/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/raucherstatus" />
   <version value="0.1" />
   <name value="observation-cancer-base-raucherstatus-0.1" />
   <title value="Raucherstatus" />
@@ -1748,7 +1748,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1807,7 +1807,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -7080,7 +7080,7 @@
       <path value="Observation.subject" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
     <element id="Observation.context">
@@ -7088,7 +7088,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
     </element>
     <element id="Observation.effective[x]:effectiveDateTime">

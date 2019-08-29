@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
   <name value="practitioner-cancer-base-0.1" />
   <title value="Arzt" />
   <status value="draft" />

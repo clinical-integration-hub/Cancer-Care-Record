@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/vitalstatus/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/vitalstatus" />
   <version value="0.1" />
   <name value="observation-cancer-base-vitalstatus-0.1" />
   <title value="Vitalstatus des Patienten" />
@@ -1690,7 +1690,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1942,7 +1942,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2281,11 +2281,11 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -4548,7 +4548,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
     <element id="Observation.subject.reference">
@@ -4559,7 +4559,7 @@
       <path value="Observation.context" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
     </element>
     <element id="Observation.context.reference">
@@ -4577,11 +4577,11 @@
       <path value="Observation.performer" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/strahlentherapie-gesamtdosis/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/strahlentherapie-gesamtdosis" />
   <version value="0.1" />
   <name value="extension-cancer-base-strahlentherapie-gesamtdosis-0.1" />
   <title value="Gesamtdosis der Strahlentherapie" />
@@ -146,7 +146,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/strahlentherapie-gesamtdosis/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/strahlentherapie-gesamtdosis" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -488,7 +488,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/strahlentherapie-gesamtdosis/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/strahlentherapie-gesamtdosis" />
     </element>
     <element id="Extension.value[x]:valueQuantity">
       <path value="Extension.valueQuantity" />

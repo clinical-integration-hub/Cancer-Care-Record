@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tnm/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/cancer-base/tnm" />
   <version value="0.1" />
   <name value="observation-cancer-base-tnm-0.1" />
   <title value="TNM-Klassifikation (UICC Tumorstadium)" />
@@ -1686,7 +1686,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1938,7 +1938,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2277,11 +2277,11 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -8791,7 +8791,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -8911,7 +8911,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -9452,7 +9452,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -10877,7 +10877,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -10997,7 +10997,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -11538,7 +11538,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -12963,7 +12963,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -13083,7 +13083,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -13624,7 +13624,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -15049,7 +15049,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -15169,7 +15169,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -17092,7 +17092,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -17212,7 +17212,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -17753,7 +17753,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-sn/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-sn" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -17796,7 +17796,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-i/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-i" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -17839,7 +17839,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-mol/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-mol" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -19264,7 +19264,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -19384,7 +19384,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -23701,7 +23701,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -23821,7 +23821,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -25744,7 +25744,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -25864,7 +25864,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -27787,7 +27787,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -27907,7 +27907,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -35274,7 +35274,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
     <element id="Observation.subject.reference">
@@ -35285,7 +35285,7 @@
       <path value="Observation.context" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
     </element>
     <element id="Observation.context.reference">
@@ -35304,11 +35304,11 @@
       <path value="Observation.performer" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base" />
       </type>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/cancer-base" />
       </type>
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
@@ -35564,7 +35564,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:cT.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -35581,7 +35581,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet" />
       </type>
     </element>
     <element id="Observation.component:cT.code.coding">
@@ -35665,7 +35665,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:pT.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -35682,7 +35682,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet" />
       </type>
     </element>
     <element id="Observation.component:pT.code.coding">
@@ -35766,7 +35766,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:uT.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -35783,7 +35783,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-t-multiplizitaet" />
       </type>
     </element>
     <element id="Observation.component:uT.code.coding">
@@ -35864,7 +35864,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:cN.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -35956,7 +35956,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:pN.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -35973,7 +35973,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-sn/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-sn" />
       </type>
     </element>
     <element id="Observation.component:pN.extension:qualifier-i">
@@ -35982,7 +35982,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-i/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-i" />
       </type>
     </element>
     <element id="Observation.component:pN.extension:qualifier-mol">
@@ -35991,7 +35991,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-mol/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-n-mol" />
       </type>
     </element>
     <element id="Observation.component:pN.code.coding">
@@ -36075,7 +36075,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:uN.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -36272,7 +36272,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:cM.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -36364,7 +36364,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:pM.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">
@@ -36456,7 +36456,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/tnm-praefix-cpu" />
       </type>
     </element>
     <element id="Observation.component:uM.extension:praefix-cpu.valueCodeableConcept:valueCodeableConcept.coding.system">

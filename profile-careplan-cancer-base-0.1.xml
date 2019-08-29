@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base" />
   <version value="0.1" />
   <name value="careplan-cancer-base-0.1" />
   <title value="Therapieplan eines Patienten" />
@@ -343,7 +343,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/therapielinie/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/therapielinie" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -386,7 +386,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studienempfehlung/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studienempfehlung" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -584,7 +584,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -631,7 +631,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -676,7 +676,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -943,7 +943,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1001,7 +1001,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1235,7 +1235,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2832,7 +2832,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/therapielinie/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/therapielinie" />
       </type>
     </element>
     <element id="CarePlan.extension:studienempfehlung">
@@ -2842,49 +2842,49 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studienempfehlung/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/studienempfehlung" />
       </type>
     </element>
     <element id="CarePlan.basedOn">
       <path value="CarePlan.basedOn" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base" />
       </type>
     </element>
     <element id="CarePlan.replaces">
       <path value="CarePlan.replaces" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base" />
       </type>
     </element>
     <element id="CarePlan.partOf">
       <path value="CarePlan.partOf" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/CarePlan/cancer-base" />
       </type>
     </element>
     <element id="CarePlan.subject">
       <path value="CarePlan.subject" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/cancer-base" />
       </type>
     </element>
     <element id="CarePlan.context">
       <path value="CarePlan.context" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/EpisodeOfCare/cancer-base" />
       </type>
     </element>
     <element id="CarePlan.addresses">
       <path value="CarePlan.addresses" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/cancer-base" />
       </type>
     </element>
   </differential>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/fernmetastasen/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/fernmetastasen" />
   <version value="0.1" />
   <name value="extension-cancer-base-fernmetastasen-0.1" />
   <title value="Fernmetastasen" />
@@ -145,7 +145,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/fernmetastasen/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/fernmetastasen" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -200,7 +200,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/fernmetastasen/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/cancer-base/fernmetastasen" />
     </element>
     <element id="Extension.value[x]:valueBoolean">
       <path value="Extension.valueBoolean" />

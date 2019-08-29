@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Organization/cancer-base" />
   <name value="organization-cancer-base-0.1" />
   <title value="Organisation" />
   <status value="draft" />
