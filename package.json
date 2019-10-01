@@ -1,0 +1,11 @@
+{
+  "name": "CancerCareRecord",
+  "version": "0.1.0",
+  "description": "Put a description here",
+  "dependencies": {
+    "basisprofil.de": "0.2.12",
+    "Simplifier.Core.STU3": "3.0.3"
+  },
+  "devDependencies": null,
+  "canonicals": null
+}
