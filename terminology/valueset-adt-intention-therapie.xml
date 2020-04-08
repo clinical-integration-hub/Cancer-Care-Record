@@ -28,6 +28,26 @@
 		</contains>
 		<contains>
 			<system value="http://uk-koeln.de/fhir/CodeSystem/cancer-base/adt/intention-therapie"/>
+			<code value="A"/>
+			<display value="adjuvant"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/cancer-base/adt/intention-therapie"/>
+			<code value="N"/>
+			<display value="neoadjuvant"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/cancer-base/adt/intention-therapie"/>
+			<code value="Pr"/>
+			<display value="prophylaktisch"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/cancer-base/adt/intention-therapie"/>
+			<code value="D"/>
+			<display value="definitiv mit chemotherapie"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/cancer-base/adt/intention-therapie"/>
 			<code value="S"/>
 			<display value="sonstiges"/>
 		</contains>
