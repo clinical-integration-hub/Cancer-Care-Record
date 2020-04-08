@@ -19,6 +19,22 @@
 		<display value="palliativ"/>
 	</concept>
 	<concept>
+		<code value="A"/>
+		<display value="adjuvant"/>
+	</concept>
+	<concept>
+		<code value="N"/>
+		<display value="neoadjuvant"/>
+	</concept>
+	<concept>
+		<code value="Pr"/>
+		<display value="prophylaktisch"/>
+	</concept>	
+	<concept>
+		<code value="D"/>
+		<display value="definitiv mit Chemotherapie"/>
+	</concept>	
+	<concept>
 		<code value="S"/>
 		<display value="sonstiges"/>
 	</concept>
